@@ -1,16 +1,5 @@
-import {
-  Text,
-  View,
-  StyleSheet,
-  Image,
-  ImageBackground,
-  Dimensions,
-  TouchableOpacity,
-} from "react-native";
-import {
-  SafeAreaView,
-  SafeAreaProvider,
-} from "react-native-safe-area-context";
+import { Text, View, StyleSheet, Image, ImageBackground, Dimensions, TouchableOpacity } from "react-native";
+import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
@@ -77,5 +66,9 @@ const styles = StyleSheet.create({
     color: "white",
     fontWeight: "800",
     fontSize: 40,
-    t
-
+    textAlign: "center",
+    marginBottom: 12,
+  },
+  textSmall: {
+    color: "white",
+    fontSize
